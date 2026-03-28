@@ -1,7 +1,7 @@
 services:
   test-app:
     build: .
-    image: phat3861/testCICD:latest
+    image: phat3861/testcicd:latest
     container_name: test-container
     ports:
       - "80:80"
