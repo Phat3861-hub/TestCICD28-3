@@ -1,0 +1,8 @@
+services:
+  test-app:
+    build: .
+    image: phat3861/acnecare-api:latest
+    container_name: test-container
+    ports:
+      - "80:80"
+    restart: always
