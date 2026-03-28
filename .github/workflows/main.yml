@@ -25,4 +25,4 @@ jobs:
           context: .
           push: true
           # Tên image đồng bộ với docker-compose và kịch bản test
-          tags: phat3861/testCICD:latest
+          tags: phat3861/testcicd:latest
